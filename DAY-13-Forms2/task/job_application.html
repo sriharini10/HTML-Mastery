@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend><h2>Job Application Form</h2></legend>
+
+        <table>
+          <tr>
+            <td><label for="">First Name:</label></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Last Name:</label></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Email:</label></td>
+            <td><input type="email" name="" id="" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Phone Number:</label></td>
+            <td><input type="tel" name="" id="" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Date of Birth:</label></td>
+            <td><input type="date" name="" id="" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="">Gender</label></td>
+            <td>
+              <input type="radio" name="Gender" id="" />Male
+              <input type="radio" name="Gender" id="" />Female
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="">Address:</label></td>
+            <td><textarea name="" id="" rows="5"></textarea></td>
+          </tr>
+          <tr>
+            <td><label for="">City:</label></td>
+            <td>
+              <input
+                type="text"
+                placeholder="Type or search your city"
+                list="cities"
+                name="selectedcity"
+              />
+              <datalist id="cities">
+                <option value="Chennai">Chennai</option>
+                <option value="Mayiladuthurai">Mayiladuthurai</option>
+                <option value="Coimbatore">Coimbatore</option>
+                <option value="Trichy">Trichy</option>
+                <option value="Madurai">Madurai</option>
+              </datalist>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="">State:</label></td>
+            <td>
+              <input
+                type="text"
+                placeholder="Type or select your state"
+                list="states"
+                name="selectedstate"
+              />
+              <datalist id="states">
+                <option value="Tamilnadu">Tamilnadu</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Andra pradesh">Andra pradesh</option>
+                <option value="Maharastra">Maharastra</option>
+                <option value="Mumbai">Mumbai</option>
+              </datalist>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="">Pincode:</label></td>
+            <td><input type="text" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="">Position Applied For:</label></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Upload Resume:</label></td>
+            <td><input type="file" name="" id="" /></td>
+          </tr>
+          <tr>
+            <td><label for="">linkedIn Profile:</label></td>
+            <td><input type="url" name="" id="" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="">Available Start Date:</label></td>
+            <td><input type="date" name="" id="" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="">Expected salary:</label></td>
+            <td><input type="number" name="" id="" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="">Willing to Relocate</label></td>
+            <td>
+              <select name="willing" id="">
+                <option value="Yes">yes</option>
+                <option value="No">No</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><button type="submit">Submit Application</button></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>

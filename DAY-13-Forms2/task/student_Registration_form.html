@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <h1><mark>Student registration Form</mark></h1>
+    </center>
+
+    <form action="">
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <table>
+          <tr>
+            <td><label for="">First Name:</label></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Last Name:</label></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Phone Number</label></td>
+            <td><input type="tel" name="" id="" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Date of Birth:</label></td>
+            <td><input type="date" name="" id="" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Gender:</label></td>
+            <td>
+              <input type="radio" name="Gender" id="" />Male
+              <input type="radio" name="Gender" id="" />female
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <br />
+
+      <fieldset>
+        <legend>Academic Information</legend>
+
+        <table>
+          <tr>
+            <td><label for="">Select Course:</label></td>
+            <td>
+              <select name="selectedcourse" id="">
+                <option value="" disabled selected>--select a course--</option>
+                <option value="Java">Java Full Stack</option>
+                <option value="Python">Python Full Stack</option>
+                <option value="Data Science">Data Science</option>
+                <option value="Data Analyst">Data Analyst</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Skills:</label></td>
+            <td>
+              <input
+                type="text"
+                placeholder="Select or type a skill"
+                list="skills"
+              />
+
+              <datalist id="skills">
+                <option value="Java">Java</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JS">JS</option>
+                <option value="React">React</option>
+                <option value="SQL">SQL</option>
+              </datalist>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Address:</label></td>
+            <td><textarea name="+" id="" rows="5" cols="30"></textarea></td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <br />
+
+      <fieldset>
+        <legend>Login Credentials</legend>
+
+        <table>
+          <tr>
+            <td><label for="">Username:</label></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Password:</label></td>
+            <td><input type="password" name="" id="" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Confirm Password:</label></td>
+            <td><input type="password" name="" id="" /></td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <br />
+
+      <fieldset>
+        <legend>Declaration</legend>
+
+        <table>
+          <tr>
+            <td>
+              <input type="checkbox" name="" id="" />
+              <label for="">I agree to the Terms & Conditions</label>
+            </td>
+          </tr>
+
+          <tr>
+            
+            <th colspan="">
+              <button type="submit">Register</button>
+              <button type="reset">Reset</button>
+            </th>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
